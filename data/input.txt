@@ -1,0 +1,382 @@
+Active Admin
+Active Record
+ActiveRecord
+AES
+Agile (Scrum/Kanban)
+Agile software development (Kanban/SCRUM)
+Agnular.js
+Airbrake
+AJAX
+Alfresco ECM
+Alibaba Cloud
+Amazon SQS
+Analytics (MixPanel, Flurry, Google Analytics)
+Android
+Android Architecture Patterns (MVC, MVP, MVVM)
+Android Media/Graphics (Open GL, Live streaming)
+Android SDK (Bluetooth API, Camera API, Sensor/Location API)
+Angular
+Angular (2/4/5/6/7)
+Angular (2/4/5/6/7/8)
+Angular.js
+Ansible
+Ant
+Apache
+Apache ActiveMQ
+Apache Ant
+Apache Camel
+Apache Cassandra
+Apache CXF
+Apache Hadoop (HDFS, MapReduce)
+Apache HTTP
+Apache JMeter
+Apache JMeter + Grafana
+Apache Kafka
+Apache Lucene
+Apache Maven
+Apache POI
+Apache Shiro
+Apache Solr
+Apache Spark
+Apache Tiles
+Apache Tomcat
+Apache Wicket
+Appium
+AppSignal
+Atlassian Confluence
+Atlassian JIRA
+Atlassian SDK
+AWS Cloud
+AWS RDS
+Babel
+Bash
+Behavior-driven development (BDD)
+Behaviour-Driven Development
+BitBucket
+Bonita BPM
+Bootstrap
+C/C++
+C#
+Capistrano
+Capybara
+CentricCRM
+Charles proxy
+Circle CI
+CoffeeScript
+Cognos
+Confluence
+Continuous Delivery
+Continuous Integration
+Continuous Integration and Delivery
+Crash reports (Crittercism, Crashlytics)
+Crystal Reports
+CSS
+CSS/CSS3
+CSV
+Cucumber
+CVS
+DataDesigner
+Datadog
+DataGrip
+DB2
+DB2 / DashDB
+Delphi
+Docker
+Docker Compose
+Docker Swarm
+DockerHUB
+Dry-rb
+EA Architect
+Eclipse
+ElasticSearch
+Elk
+ELK Stack
+Ember.js
+Enterprise JavaBeans (EJB3)
+Express.js
+Facebook API
+Feature-driven development (FDD)
+Fidler
+Firebase
+Firebird
+Flux/Redux
+Foundation
+Gatling
+Gensim
+Git
+GitHub
+GitLab
+Gitlab CI
+Gitlab Cl/CD
+Google Analytics
+Google Maps API
+Google Play Services
+Google ProtoBuf
+Google Search API
+Gradle
+Grape
+GraphQL
+Groovy
+Grunt
+Gulp
+Hanami
+Hapi
+Haproxy
+Harvest
+Hibernate
+HornetQ
+Hortonworks HDP/HDF
+HTML 4/5
+HTML 4/5,
+HTML,
+IBM WebSphere
+IceFaces
+Image processing (Picasso, Glide, Fresco)
+InFluxDB
+Insomnia
+Instagram API
+Intellij Idea
+Interbase
+iOS
+IPython
+J2EE 7
+Jasmine
+Jasper Reports
+Jasper Studio
+JasperReports
+Java
+Java (7, 8)
+Java 8,9
+Java Database Connectivity (JDBC)
+Java Management Extensions (JMX)
+Java Message Service (JMS)
+Java Persistence API (JPA)
+Java REST
+Java Servlet
+Java Transactions API (JTA)
+JavaScript
+JavaScript (ES 5/6)
+JavaScript (ES5/ES6)
+JavaServer Faces (JSF/JSF2)
+JavaServer Pages (JSP)
+Jax-RS
+Jax-WS
+JBoss
+JBoss Drools
+JBoss EAP
+JBoss EAP/Wildfly
+Jenkins (ex. Hudson)
+Jenkins CI
+Jest
+Jetty
+Jira
+Joomla
+jQuery
+jRuby
+JSON
+Jsreport
+JUnit
+JWT
+Kalido BIM/DIW/MDM
+KataIon Studio
+Keras
+Kibana
+Kotlin
+Kubernetes
+Laravel
+Lasagne
+LDAP
+Liferay
+Linux
+Liquibase
+Lodash
+Logback
+Logstash
+macOS
+Magento 1
+Magento 2
+MariaDB
+Material Design
+Matplotlib
+Maven
+Memcached
+Microservices
+Microsoft SSIS
+Mina
+Minitest
+Mocha
+Mockito
+Mongo
+MongoDB
+Mongoid
+Mongoose
+MS Office
+MS OLAP
+MS SQL
+MS VISIO
+MSSQL
+MVC
+MVVM
+MyBatis
+MySQL
+MySQL / MariaDB
+Nest.js (e+rxjs)
+NetBeans
+Netezza
+New Relic
+Nexus
+Nexus Repository
+Nexus Repository Management
+Nginx
+NgRx
+NLTK
+Node Package Manager
+Node.js
+Numpy
+Nvidia Cuda
+OAuth2
+Online Google Office
+OpenId
+Oracle
+Oracle BI Publisher
+Oracle Database Designer
+Oracle Forms
+Oracle Graphics
+Oracle Reports
+Oracle VirtualBox
+Oracle WebLogic
+Pandas
+Pascal
+Passenger
+Perl
+PhoneGap
+PHP
+Pivotal
+PL/SQL
+PostCSS
+PostgreSQL
+Postman
+PowerDesigner
+PowerMock
+PrimeFaces
+Protractor
+Proxmox
+Puma
+Push notification (Parse, UrbanAirship, Pubnub)
+Python
+RabbitMQ
+Rambda
+Raptor (Passenger)
+Rbenv
+React Native
+React.js
+Redis
+Redmine
+Redmine wiki
+Resque
+REST
+REST (Retrofit, Volley)
+RESTful
+Restify
+Robot Framework
+Roda
+Rom-rb
+RSA
+RSpec
+RuboCop
+Ruby
+Ruby MRI
+Ruby on Rails
+RudoCop / Reek
+RVM
+RxJS
+SAP Business Objects Services
+SASS/LESS
+Scikit Learn
+Scipy
+Selenide
+Selenium
+Selenium (WebDriver RC/2/3, Grid and IDE)
+Sequel
+Serenity
+Shell
+Shopify API
+Sidekiq
+Sinatra
+SoapUI
+SoapUl
+Social networks (Facebook, Twitter, Instagram)
+SolarWinds Database Performance Analyzer
+SonarQube
+Spinach
+Splunk
+Spring
+Spring AOP
+Spring Boot
+Spring Cloud
+Spring Data
+Spring MVC
+Spring REST
+Spring Security
+Spring Social
+Spring Test
+Spring Web Flow
+Spring WebFlux
+Spring WebSocket
+SQL
+SQL Developer
+SQLite
+Subversion
+SugarCRM
+Swagger
+TeamCity
+TensorFlow
+Tesseract
+Test-driven Development
+Test-driven development (TDD)
+TestLink
+TestNG
+TestNG/JUnit
+TestRail
+Theano
+Thin
+Thymeleaf
+TIBCO BPM
+Tibco designer
+Tibco EMS
+TIBCO JMS
+Tomcat
+Trailblazer
+Travis CI
+Trello
+Twitter API
+TypeScript
+UML
+Unicorn
+Vagrant
+Velocity
+Vert.x
+VMware
+VMWare ESXi
+Vue.js
+Waterfall
+Web Services(SOAP)
+Webpack
+WebSocket
+Windows
+Wireshark
+Wordpress
+Workfront
+x509
+Xen
+XGBoost
+XML
+XPath
+XSLT
+Xwiki
+Yandex Maps API
+Yii
+Zabbix
+Zend
+ZK (zkoss)
+КриптоПро

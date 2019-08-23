@@ -1,0 +1,8 @@
+{
+    "technologies": [ 
+        {
+            "title": "Programming Languages",
+            "content": [ "Java", "Ruby", "JavaScript", "Python", "Swift", "PHP", "Scala", "C", "C++", "Objective-C", "TypeScript", "CoffeeScript", "SQL", "PL/SQL", "Perl", "C#", "Groovy", "Delphi", "Pro*C", "Bash" ]    
+        }
+    ]
+}
