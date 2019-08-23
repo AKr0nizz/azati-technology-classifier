@@ -1,8 +1,42 @@
 {
-    "technologies": [ 
-        {
-            "title": "Programming Languages",
-            "content": [ "Java", "Ruby", "JavaScript", "Python", "Swift", "PHP", "Scala", "C", "C++", "Objective-C", "TypeScript", "CoffeeScript", "SQL", "PL/SQL", "Perl", "C#", "Groovy", "Delphi", "Pro*C", "Bash" ]    
-        }
-    ]
+    "technologies": {
+        "Programming Languages": ["Java", "Ruby", "JavaScript", "Python", "Swift", "PHP", "Scala", "C", "C++", "Objective-C", "TypeScript", "CoffeeScript", "SQL", "PL/SQL", "Perl", "C#", "Groovy",
+            "Delphi", "Pro*C", "Bash"
+        ],
+        "Project Management Methodologies": ["Behavior-driven development (BDD)", "Test-driven development (TDD)", "Feature-driven development (FDD)", "Agile software development (Kanban/SCRUM)", "Waterfall"],
+        "Development Approaches": ["Continuous Delivery (CD)", "Continuous Integration (CI)"],
+        "Software Architectural Patterns": ["Model-View-Controller (MVC)", "Model-View-View-Model (MVVM)", "Representational State Transfer (REST/RESTful)", "Microservices"],
+        "Java Technologies": ["Java (7/8/9)", "Java Servlet", "Java Database Connectivity (JDBC)", "Java API for RESTful Web Services", "Java Persistence API (JPA)", "Java Message Service (JMS)",
+            "Drools", "JavaServer Faces (JSF/JSF2)", "Thymeleaf", "Velocity", "ICEFaces", "PrimeFaces", "Java Management Extensions (JMX)", "JAX-WS", "JAX-RS", "JavaServer Pages (JSP)"
+        ],
+        "Java Frameworks": ["Spring (Boot, REST, MVC, Data, Security, Test, WebFlux, WebSocket, Web Flow, AOP, Cloud)", "Hibernate", "MyBatis", "Apache Tiles", "Vert.x", "ZK (zkoss)"],
+        "Java Libraries": ["Liquibase"],
+        "SQL Databases": ["PostgreSQL", "MySQL", "Oracle", "MSSQL", "DB2", "DashDB"],
+        "NoSQL Databases": ["MongoDB"],
+        "Time series database": ["InFluxDB"],
+        "Web Testing": ["Selenium"],
+        "Testing Frameworks": ["TestNG"],
+        "Unit Testing": ["JUnit", "Mockito", "PowerMock"],
+        "Testing Automation": ["Selenide", "Cucumber"],
+        "API Testing": ["SoapUI"],
+        "Application Servers": ["JBoss EAP", "Oracle WebLogic", "Apache Tomcat", "Eclipse Jetty", "IBM WebSphere"],
+        "Cloud Platforms": ["Alibaba Cloud"],
+        "Containerization": ["Docker"],
+        "Web Technologies": ["HTML 4/5", "CSS/CSS3", "XML", "XSLT", "JSON", "OAuth2"],
+        "Web Frameworks": ["Bootstrap"],
+        "Front-end JavaScript Frameworks": ["Angular", "Angular.js", "React.js"],
+        "Front-end Libraries": ["jQuery"],
+        "PHP Frameworks": ["Yii"],
+        "Messaging API": ["HornetQ", "Apache ActiveMQ"],
+        "Continuous Integration & Delivery": ["Jenkins CI", "Apache Maven", "Gradle"],
+        "Portal Platforms": ["Liferay"],
+        "Business Process Management (BPM) Platforms": ["TIBCO BPM"],
+        "Customer Relationship Management (CRM) Platforms": ["SugarCRM"],
+        "Data Warehousing": ["Kalido (BIM/DIW/MDM)", "Microsoft SSIS", "Netezza"],
+        "Version-control Systems": ["Git", "CVS", "Subversion"],
+        "Version-control Platforms": ["GitHub", "GitLab", "BitBucket"],
+        "Repository Management": ["Nexus Repository Manager"],
+        "Project Management Systems": ["Jira", "Redmine"],
+        "Integrated Development Environment (IDE)": ["Intellij Idea", "SQL Developer", "Eclipse", "Jasper Studio", "NetBeans", "DataGrip"]
+    }
 }

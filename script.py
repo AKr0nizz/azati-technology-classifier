@@ -1,33 +1,26 @@
 import json
 
-from modules.io import read_file_to_string, read_file_to_array, write_file
+from modules.io import read_file_to_string, read_file_to_array, write_string_file
 
 # Load contents
-input_file_content = read_file_to_array("./data/input.txt")
-technology_groups = json.loads(read_file_to_string(
+input_file_content = list(set(read_file_to_array("./data/input.txt")))
+technologies = json.loads(read_file_to_string(
     "./models/technologies.json"))["technologies"]
 
 # Create and fill sample object with all the headlines
-sample_object = {"technologies": []}
-for group in technology_groups:
-    sample_object["technologies"].append({
-        "title": group["title"],
-        "content": []
-    })
+sample_object = {"technologies": {}}
+for attr, value in technologies.items():
+    sample_object["technologies"][attr] = []
 
 # Process incomming data
 for item in input_file_content:
-    for group in technology_groups:
-        if item in group["content"]:
-            for sample_group in sample_object["technologies"]:
-                if sample_group["title"] == group["title"]:
-                    sample_group["content"].append(item)
+    for attr, value in technologies.items():
+        if item.lower() in list(map(lambda x: x.lower(), value)):
+            sample_object["technologies"][attr].append(item)
             input_file_content.remove(item)
 
-# Add all other entries as 'unidentified'
-sample_object["technologies"].append({
-    "title": "Unidentified",
-    "content": input_file_content
-})
+# Classify all other entries as 'unidentified'
+sample_object["technologies"]["Unidentified"] = input_file_content
 
 print(sample_object)
+write_string_file('./data/output.json', json.dumps(sample_object))
