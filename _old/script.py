@@ -19,8 +19,8 @@ for item in input_file_content:
             sample_object["technologies"][attr].append(item)
             input_file_content.remove(item)
 
-# Classify all other entries as 'unidentified'
+# Classify all other entries as "unidentified"
 sample_object["technologies"]["Unidentified"] = input_file_content
 
-print(sample_object)
-write_string_file('./data/output.json', json.dumps(sample_object))
+print(sample_object["technologies"]["Unidentified"])
+write_string_file("./data/output.json", json.dumps(sample_object))
