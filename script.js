@@ -33,9 +33,9 @@ runScript = async () => {
     });
 
     // Add data as unclassifies
-    sample_object["technologies"]["Unclassifies"] = inputData
+    sample_object["technologies"]["Unclassified"] = inputData
 
-    console.log(sample_object["technologies"]["Unclassifies"]);
+    console.log(sample_object["technologies"]["Unclassified"]);
 }
 
 runScript();
