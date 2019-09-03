@@ -22,15 +22,20 @@ runScript = async () => {
         sample_object["technologies"][key] = []
     }
 
+    console.log(inputData.length)
+
     // Process the data
     inputData.forEach(inputElement => {
         for (const technologyType in inputTechnologies["technologies"]) {
             if (inputTechnologies["technologies"][technologyType].map(x => x.toLowerCase()).includes(inputElement.toLowerCase())) {
                 sample_object["technologies"][technologyType].push(inputElement)
-                inputData.pop(inputElement)
+                inputData = inputData.filter(item => item !== inputElement)
+                break;
             }
         }
     });
+
+    console.log(inputData.length)
 
     // Add data as unclassifies
     sample_object["technologies"]["Unclassified"] = inputData

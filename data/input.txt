@@ -1,23 +1,16 @@
 Active Admin
 Active Record
-ActiveRecord
 AES
-Agile (Scrum/Kanban)
-Agile software development (Kanban/SCRUM)
-Agnular.js
+Agile (Kanban/SCRUM)
 Airbrake
 AJAX
 Alfresco ECM
 Alibaba Cloud
-Amazon SQS
-Analytics (MixPanel, Flurry, Google Analytics)
 Android
 Android Architecture Patterns (MVC, MVP, MVVM)
 Android Media/Graphics (Open GL, Live streaming)
 Android SDK (Bluetooth API, Camera API, Sensor/Location API)
 Angular
-Angular (2/4/5/6/7)
-Angular (2/4/5/6/7/8)
 Angular.js
 Ansible
 Ant
@@ -65,16 +58,14 @@ Circle CI
 CoffeeScript
 Cognos
 Confluence
-Continuous Delivery
-Continuous Integration
-Continuous Integration and Delivery
+Continuous Delivery (CD)
+Continuous Integration (CI)
+
 Crash reports (Crittercism, Crashlytics)
 Crystal Reports
-CSS
 CSS/CSS3
 CSV
 Cucumber
-CVS
 DataDesigner
 Datadog
 DataGrip
@@ -141,12 +132,10 @@ iOS
 IPython
 J2EE 7
 Jasmine
-Jasper Reports
 Jasper Studio
 JasperReports
 Java
-Java (7, 8)
-Java 8,9
+Java (7/8/9)
 Java Database Connectivity (JDBC)
 Java Management Extensions (JMX)
 Java Message Service (JMS)
@@ -155,21 +144,19 @@ Java REST
 Java Servlet
 Java Transactions API (JTA)
 JavaScript
-JavaScript (ES 5/6)
 JavaScript (ES5/ES6)
 JavaServer Faces (JSF/JSF2)
 JavaServer Pages (JSP)
 Jax-RS
 Jax-WS
-JBoss
+JBoss (Wildfly)
 JBoss Drools
 JBoss EAP
-JBoss EAP/Wildfly
 Jenkins (ex. Hudson)
 Jenkins CI
 Jest
 Jetty
-Jira
+Atlassian JIRA
 Joomla
 jQuery
 jRuby
@@ -198,7 +185,6 @@ Magento 2
 MariaDB
 Material Design
 Matplotlib
-Maven
 Memcached
 Microservices
 Microsoft SSIS
@@ -206,7 +192,6 @@ Mina
 Minitest
 Mocha
 Mockito
-Mongo
 MongoDB
 Mongoid
 Mongoose
@@ -274,9 +259,7 @@ Redis
 Redmine
 Redmine wiki
 Resque
-REST
 REST (Retrofit, Volley)
-RESTful
 Restify
 Robot Framework
 Roda
