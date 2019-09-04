@@ -13,17 +13,16 @@ Android SDK (Bluetooth API, Camera API, Sensor/Location API)
 Angular
 Angular.js
 Ansible
-Ant
-Apache
 Apache ActiveMQ
 Apache Ant
 Apache Camel
 Apache Cassandra
 Apache CXF
-Apache Hadoop (HDFS, MapReduce)
+Apache Hadoop
 Apache HTTP
 Apache JMeter
-Apache JMeter + Grafana
+Apache JMeter
+Grafana
 Apache Kafka
 Apache Lucene
 Apache Maven
@@ -44,11 +43,9 @@ AWS RDS
 Babel
 Bash
 Behavior-driven development (BDD)
-Behaviour-Driven Development
 BitBucket
 Bonita BPM
 Bootstrap
-C/C++
 C#
 Capistrano
 Capybara
@@ -57,11 +54,8 @@ Charles proxy
 Circle CI
 CoffeeScript
 Cognos
-Confluence
 Continuous Delivery (CD)
 Continuous Integration (CI)
-
-Crash reports (Crittercism, Crashlytics)
 Crystal Reports
 CSS/CSS3
 CSV
@@ -70,27 +64,22 @@ DataDesigner
 Datadog
 DataGrip
 DB2
-DB2 / DashDB
 Delphi
 Docker
-Docker Compose
-Docker Swarm
-DockerHUB
 Dry-rb
 EA Architect
 Eclipse
 ElasticSearch
-Elk
-ELK Stack
 Ember.js
 Enterprise JavaBeans (EJB3)
 Express.js
 Facebook API
 Feature-driven development (FDD)
-Fidler
+Fiddler
 Firebase
 Firebird
-Flux/Redux
+Flux
+Redux
 Foundation
 Gatling
 Gensim
@@ -98,7 +87,7 @@ Git
 GitHub
 GitLab
 Gitlab CI
-Gitlab Cl/CD
+Gitlab CD
 Google Analytics
 Google Maps API
 Google Play Services
@@ -117,9 +106,7 @@ Harvest
 Hibernate
 HornetQ
 Hortonworks HDP/HDF
-HTML 4/5
-HTML 4/5,
-HTML,
+HTML (4/5)
 IBM WebSphere
 IceFaces
 Image processing (Picasso, Glide, Fresco)
@@ -130,7 +117,6 @@ Intellij Idea
 Interbase
 iOS
 IPython
-J2EE 7
 Jasmine
 Jasper Studio
 JasperReports
@@ -155,8 +141,7 @@ JBoss EAP
 Jenkins (ex. Hudson)
 Jenkins CI
 Jest
-Jetty
-Atlassian JIRA
+Eclipse Jetty
 Joomla
 jQuery
 jRuby
@@ -164,8 +149,8 @@ JSON
 Jsreport
 JUnit
 JWT
-Kalido BIM/DIW/MDM
-KataIon Studio
+Kalido (BIM/DIW/MDM)
+Katalon Studio
 Keras
 Kibana
 Kotlin
@@ -180,8 +165,7 @@ Lodash
 Logback
 Logstash
 macOS
-Magento 1
-Magento 2
+Magento (1/2)
 MariaDB
 Material Design
 Matplotlib
@@ -196,22 +180,16 @@ MongoDB
 Mongoid
 Mongoose
 MS Office
-MS OLAP
-MS SQL
+Microsoft SQL Server Analysis Services (OLAP)
 MS VISIO
 MSSQL
-MVC
-MVVM
 MyBatis
 MySQL
-MySQL / MariaDB
-Nest.js (e+rxjs)
 NetBeans
 Netezza
 New Relic
-Nexus
 Nexus Repository
-Nexus Repository Management
+Nexus Repository Manager
 Nginx
 NgRx
 NLTK
@@ -219,10 +197,8 @@ Node Package Manager
 Node.js
 Numpy
 Nvidia Cuda
-OAuth2
-Online Google Office
 OpenId
-Oracle
+Oracle Database
 Oracle BI Publisher
 Oracle Database Designer
 Oracle Forms
@@ -232,7 +208,6 @@ Oracle VirtualBox
 Oracle WebLogic
 Pandas
 Pascal
-Passenger
 Perl
 PhoneGap
 PHP
@@ -241,7 +216,7 @@ PL/SQL
 PostCSS
 PostgreSQL
 Postman
-PowerDesigner
+SAP PowerDesigner
 PowerMock
 PrimeFaces
 Protractor
@@ -254,7 +229,6 @@ Rambda
 Raptor (Passenger)
 Rbenv
 React Native
-React.js
 Redis
 Redmine
 Redmine wiki
@@ -270,25 +244,23 @@ RuboCop
 Ruby
 Ruby MRI
 Ruby on Rails
-RudoCop / Reek
+Reek
 RVM
 RxJS
-SAP Business Objects Services
-SASS/LESS
+SAP BusinessObjects
+SASS
+LESS
 Scikit Learn
 Scipy
 Selenide
-Selenium
-Selenium (WebDriver RC/2/3, Grid and IDE)
+Selenium (WebDriver/Grid/IDE)
 Sequel
 Serenity
 Shell
 Shopify API
 Sidekiq
 Sinatra
-SoapUI
 SoapUl
-Social networks (Facebook, Twitter, Instagram)
 SolarWinds Database Performance Analyzer
 SonarQube
 Spinach
@@ -311,15 +283,15 @@ SQL Developer
 SQLite
 Subversion
 SugarCRM
-Swagger
+Swagger.io
 TeamCity
 TensorFlow
 Tesseract
-Test-driven Development
 Test-driven development (TDD)
 TestLink
 TestNG
-TestNG/JUnit
+TestNG
+JUnit
 TestRail
 Theano
 Thin
@@ -328,7 +300,6 @@ TIBCO BPM
 Tibco designer
 Tibco EMS
 TIBCO JMS
-Tomcat
 Trailblazer
 Travis CI
 Trello
@@ -339,18 +310,17 @@ Unicorn
 Vagrant
 Velocity
 Vert.x
-VMware
 VMWare ESXi
-Vue.js
+Vue
 Waterfall
-Web Services(SOAP)
+SOAP Web services
 Webpack
-WebSocket
+Web Sockets
 Windows
 Wireshark
 Wordpress
 Workfront
-x509
+x.509
 Xen
 XGBoost
 XML
