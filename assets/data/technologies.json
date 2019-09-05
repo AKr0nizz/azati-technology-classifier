@@ -1,6 +1,6 @@
 {
     "technologies": {
-        "Programming Languages": ["Java", "Ruby", "JavaScript", "Python", "Swift", "PHP", "Scala", "C", "C++", "Objective-C", "TypeScript", "CoffeeScript", "SQL", "PL/SQL", "Perl", "C#", "Groovy",
+        "Programming Languages": ["Java", "Ruby", "JavaScript (ES5/ES6)", "Python", "Swift", "PHP", "Scala", "C", "C++", "Objective-C", "TypeScript", "CoffeeScript", "SQL", "PL/SQL", "Perl", "C#", "Groovy",
             "Delphi", "Pro*C", "Bash", "Kotlin", "Pascal", "Shell", "IPython"
         ],
         "Mark-up and Modeling Languages": ["XSLT", "HTML (4/5)", "UML"],
@@ -9,7 +9,7 @@
         "Software Architectural Patterns": ["Model-View-Controller (MVC)", "Model-View-View-Model (MVVM)", "Representational State Transfer (REST/RESTful)", "Microservices", "GraphQL"],
         "Java Technologies": ["Java (7/8/9)", "Java Servlet", "Java Database Connectivity (JDBC)", "Java API for RESTful Web Services", "Java Persistence API (JPA)", "Java Message Service (JMS)",
             "JBoss Drools", "JavaServer Faces (JSF/JSF2)", "Thymeleaf", "Velocity", "ICEFaces", "PrimeFaces", "Java Management Extensions (JMX)", "JAX-WS", "JAX-RS", "JavaServer Pages (JSP)", "Enterprise JavaBeans (EJB3)",
-            "Java REST", "Java Transactions API (JTA)", "SOAP Web services"
+            "Java REST", "Java Transactions API (JTA)", "SOAP Web Services"
         ],
         "Java Frameworks": ["Spring", "Spring Boot", "Spring REST", "Spring MVC", "Spring Data", "Spring Security", "Spring Test", "Spring WebFlux", "Spring WebSocket", "Spring Web Flow", "Spring AOP", "Spring Cloud",
             "Spring Social", "Hibernate", "MyBatis", "Apache Tiles", "Vert.x", "ZK (zkoss)", "Apache Camel", "Apache CXF", "Apache POI", "Apache Shiro", "Apache Wicket"
@@ -18,7 +18,7 @@
         "Ruby Frameworks": ["Active Admin", "Ruby on Rails", "Sinatra", "Grape", "Hanami", "Roda"],
         "Ruby Technologies": ["Ruby MRI", "jRuby"],
         "Ruby Testing": ["RSpec", "Spinach", "Minitest"],
-        "JavaScript Technologies": ["JavaScript (ES5/ES6)", "Babel"],
+        "JavaScript Technologies": ["Babel"],
         "Ruby Libraries": ["Rambda", "Resque", "Trailblazer", "Dry-rb"],
         "Ruby Tools": ["RVM", "Rbenv"],
         "Object Data Modeling (ODM)": ["Mongoose"],
@@ -46,7 +46,7 @@
         "Cloud Platforms": ["Alibaba Cloud", "AWS Cloud"],
         "Containerization": ["Docker", "Kubernetes"],
         "Virtualization": ["Oracle VirtualBox", "VMWare ESXi", "Proxmox", "Xen", "Vagrant"],
-        "Web Technologies": ["CSS/CSS3", "AJAX", "Web Sockets"],
+        "Web Technologies": ["AJAX", "WebSocket API (WebSockets)"],
         "Data Formats": ["XML", "JSON", "CSV"],
         "Web Frameworks": ["Bootstrap", "Material Design", "Foundation"],
         "Front-end Frameworks": ["Angular", "Angular.js", "React", "Vue", "Ember.js"],
@@ -92,6 +92,9 @@
         "Network Analysis Tools": ["Wireshark"],
         "Test Management Systems": ["TestLink", "TestRail"],
         "Big Data": ["Hortonworks HDP/HDF"],
-        "Application Protocols": ["LDAP"]
+        "Application Protocols": ["LDAP"],
+        "Android Development": ["Android Architecture Patterns (MVC, MVP, MVVM)", "Android Media/Graphics (Open GL, Live streaming)", "Android SDK (Bluetooth API, Camera API, Sensor/Location API)", 
+            "Google Play Services", "Image processing (Picasso, Glide, Fresco)", "Push notification (Parse, UrbanAirship, Pubnub)", "REST (Retrofit, Volley)"
+        ]
     }
 }
