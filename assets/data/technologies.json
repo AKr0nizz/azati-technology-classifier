@@ -7,6 +7,8 @@
         "Project Management Methodologies": ["Behavior-driven development (BDD)", "Test-driven development (TDD)", "Feature-driven development (FDD)", "Agile (Kanban/SCRUM)", "Waterfall"],
         "Development Approaches": ["Continuous Delivery (CD)", "Continuous Integration (CI)"],
         "Software Architectural Patterns": ["Model-View-Controller (MVC)", "Model-View-View-Model (MVVM)", "Representational State Transfer (REST/RESTful)", "Microservices", "GraphQL"],
+        
+        
         "Java Technologies": ["Java (7/8/9)", "Java Servlet", "Java Database Connectivity (JDBC)", "Java API for RESTful Web Services", "Java Persistence API (JPA)", "Java Message Service (JMS)",
             "JBoss Drools", "JavaServer Faces (JSF/JSF2)", "Thymeleaf", "Velocity", "ICEFaces", "PrimeFaces", "Java Management Extensions (JMX)", "JAX-WS", "JAX-RS", "JavaServer Pages (JSP)", "Enterprise JavaBeans (EJB3)",
             "Java REST", "Java Transactions API (JTA)", "SOAP Web Services"
@@ -15,26 +17,42 @@
             "Spring Social", "Hibernate", "MyBatis", "Apache Tiles", "Vert.x", "ZK (zkoss)", "Apache Camel", "Apache CXF", "Apache POI", "Apache Shiro", "Apache Wicket"
         ],
         "Java Libraries": ["Liquibase", "Logback"],
-        "Ruby Frameworks": ["Active Admin", "Ruby on Rails", "Sinatra", "Grape", "Hanami", "Roda"],
+
         "Ruby Technologies": ["Ruby MRI", "jRuby"],
+        "Ruby Frameworks": ["Active Admin", "Ruby on Rails", "Sinatra", "Grape", "Hanami", "Roda"],
+        "Ruby ORM": ["Active Record", "Sequel", "Mongoid", "Rom-rb"],
         "Ruby Testing": ["RSpec", "Spinach", "Minitest"],
-        "JavaScript Technologies": ["Babel"],
         "Ruby Libraries": ["Rambda", "Resque", "Trailblazer", "Dry-rb"],
         "Ruby Tools": ["RVM", "Rbenv"],
-        "Object Data Modeling (ODM)": ["Mongoose"],
-        "Crypto": ["AES", "RSA", "X.509", "КриптоПро"],
-        "Access Control / Authorization": ["JWT", "OpenId", "OAuth 2.0", "OAuth"],
-        "Ruby ORM": ["Active Record", "Sequel", "Mongoid", "Rom-rb"],
-        "Database-related tools": ["Microsoft SQL Server Analysis Services (OLAP)"],
         "Rudy Deployment": ["Mina"],
-        "SQL Databases": ["PostgreSQL", "MySQL", "Oracle Database", "MSSQL", "DB2", "DashDB", "SQLite", "MariaDB", "AWS RDS", "Firebird", "Interbase"],
-        "In-memory Databases": ["Redis", "Memcached"],
-        "Monitoring": ["Airbrake", "Datadog", "Zabbix"],
+
+        "Front-end Frameworks": ["Angular", "Angular.js", "React", "Vue", "Ember.js"],
+        "Front-end Libraries": ["Lodash", "jQuery"],
+        "Front-end Technologies": ["CSS/CSS3", "Flux", "Redux", "Vuex", "NgRx", "RxJS", "SASS", "LESS", "PostCSS", "XPath"],
+        "JavaScript Technologies": ["Babel"],   
+        "JavaScript Backend": ["Node.js"],
+        "JavaScript Backend Frameworks": ["Express.js", "Nest.js", "Restify", "Hapi"],
+        
+        "PHP Frameworks": ["Yii", "Laravel", "Zend"],
         "PHP CMS": ["Joomla", "Wordpress", "Magento (1/2)"],
-        "HTTP Servers / Load Balancers": ["Nginx", "Apache HTTP"],
-        "Proxy Servers": ["Haproxy", "Charles Proxy", "Fiddler"],
+
+        "Web Technologies": ["AJAX", "WebSocket API (WebSockets)"],
+        "Data Formats": ["XML", "JSON", "CSV"],
+        "Web Frameworks": ["Bootstrap", "Material Design", "Foundation"],
+
+        "Mobile Development": ["React Native", "PhoneGap"],
+        "Mobile Testing": ["Appium"],
+        "Android Development": ["Android Architecture Patterns (MVC, MVP, MVVM)", "Android Media/Graphics (Open GL, Live streaming)", "Android SDK (Bluetooth API, Camera API, Sensor/Location API)", 
+            "Google Play Services", "Image processing (Picasso, Glide, Fresco)", "Push notification (Parse, UrbanAirship, Pubnub)", "REST (Retrofit, Volley)"
+        ],
+
+        "SQL Databases": ["PostgreSQL", "MySQL", "Oracle Database", "MSSQL", "DB2", "DashDB", "SQLite", "MariaDB", "AWS RDS", "Firebird", "Interbase"],
         "NoSQL Databases": ["MongoDB", "Apache Cassandra", "Firebase"],
         "Time series database": ["InFluxDB"],
+        "In-memory Databases": ["Redis", "Memcached"],
+        "Modeling Tools": ["MS Visio", "SAP PowerDesigner", "EA Architect", "TIBCO Designer", "DataDesigner"],
+        "Object Data Modeling (ODM)": ["Mongoose"],
+
         "Web Testing": ["Selenium (WebDriver/Grid/IDE)"],
         "Test Frameworks": ["TestNG", "Mocha", "Capybara", "Jasmine", "Jest", "Robot Framework"],
         "Unit Testing": ["JUnit", "Mockito", "PowerMock"],
@@ -42,59 +60,66 @@
         "Testing Tools": ["Postman", "Insomnia", "Katalon Studio"],
         "Load and Performance Testing": ["Gatling", "Apache JMeter", "SolarWinds Database Performance Analyzer"],
         "API Testing": ["SoapUl"],
+        "Code Quality Analysis": ["SonarQube", "RuboCop", "Reek"],
+        "Test Management Systems": ["TestLink", "TestRail"],
+        
         "Application Servers": ["JBoss EAP", "JBoss (Wildfly)", "Oracle WebLogic", "Apache Tomcat", "Eclipse Jetty", "IBM WebSphere", "Thin", "Puma", "Unicorn", "Raptor (Passenger)"],
-        "Cloud Platforms": ["Alibaba Cloud", "AWS Cloud"],
-        "Containerization": ["Docker", "Kubernetes"],
-        "Virtualization": ["Oracle VirtualBox", "VMWare ESXi", "Proxmox", "Xen", "Vagrant"],
-        "Web Technologies": ["AJAX", "WebSocket API (WebSockets)"],
-        "Data Formats": ["XML", "JSON", "CSV"],
-        "Web Frameworks": ["Bootstrap", "Material Design", "Foundation"],
-        "Front-end Frameworks": ["Angular", "Angular.js", "React", "Vue", "Ember.js"],
-        "Front-end Libraries": ["Lodash", "jQuery"],
-        "Front-end Technologies": ["CSS/CSS3", "Flux", "Redux", "Vuex", "NgRx", "RxJS", "SASS", "LESS", "PostCSS", "XPath"],
-        "JavaScript Backend Technologies": ["Node.js"],
-        "JavaScript Backend Frameworks": ["Express.js", "Nest.js", "Restify", "Hapi"],
-        "PHP Frameworks": ["Yii", "Laravel", "Zend"],
         "Messaging Middleware": ["HornetQ", "Apache ActiveMQ", "RabbitMQ", "Google ProtoBuf", "Amazon SQS", "Tibco EMS", "TIBCO JMS"],
-        "Continuous Integration & Delivery": ["Jenkins CI", "GitLab CI", "GitLab CD", "TeamCity", "Travis CI", "Circle CI"],
-        "Build & Deployment Automation": ["Apache Maven", "Gradle", "Jenkins (ex. Hudson)", "Capistrano", "Ansible", "Apache Ant"],
         "Job Runners & Schedulers": ["Sidekiq", "Gulp", "Grunt", "Webpack"],
-        "Portal Platforms": ["Liferay"],
-        "Business Process Management (BPM) Platforms": ["TIBCO BPM", "Bonita BPM"],
-        "Customer Relationship Management (CRM) Platforms": ["SugarCRM", "CentricCRM"],
+
         "Data Warehousing": ["Kalido (BIM/DIW/MDM)", "Microsoft SSIS", "Netezza", "Oracle Database Designer", "Oracle Database Designer"],
-        "Business Intelligence": ["SAP BusinessObjects", "Oracle Forms", "Oracle Reports", "Crystal Reports", "Oracle Graphics", "Oracle BI Publisher", "Cognos"],
-        "Version-control Systems": ["Git", "CVS", "Subversion", "CVS", "Nexus Repository"],
-        "Version-control Platforms": ["GitHub", "GitLab", "BitBucket"],
-        "Repository Management": ["Nexus Repository Manager", "Node Package Manager"],
-        "Project Management Systems": ["Atlassian JIRA", "Redmine", "Trello", "Harvest", "Pivotal", "Workfront"],
-        "Collaboration & Wiki Systems": ["Atlassian Confluence", "Xwiki", "Redmine Wiki"],
+        "Business Intelligence": ["SAP BusinessObjects", "Oracle Forms", "Oracle Reports", "Crystal Reports", "Oracle Graphics", "Oracle BI Publisher", "Cognos", "Online Analytical Processing (OLAP)"],
+        "Cloud Platforms": ["Alibaba Cloud", "AWS Cloud"],
+
         "OCR": ["Tesseract"],
         "Machine Learning Frameworks and Libraries": ["NLTK", "Keras", "Lasagne", "Scikit Learn", "TensorFlow", "XGBoost", "Gensim"],
         "Machine Learning Tools": ["Nvidia Cuda"],
-        "Integrated Development Environment (IDE)": ["IntelliJ Idea", "SQL Developer", "Eclipse", "Jasper Studio", "NetBeans", "DataGrip"],
-        "Enterprise Content Management": ["Alfresco ECM"],
-        "Reporting Tools": ["JasperReports", "Crittercism", "Crashlytics", "jsreport", "Grafana"],
-        "Analytics": ["MixPanel", "Flurry", "Google Analytics", "New Relic"],
-        "Search Technologies": ["ElasticSearch", "Apache Solr", "Apache Lucene"],
-        "Operation Systems": ["Windows", "Linux", "iOS", "Android", "MacOS"],
-        "Distributed Computing": ["Apache Hadoop", "Apache Kafka", "Apache Spark"],
-        "Office Suites": ["MS Office", "Google Docs"],
-        "Modeling Tools": ["MS Visio", "SAP PowerDesigner", "EA Architect", "TIBCO Designer", "DataDesigner"],
         "Data Science": ["Matplotlib", "Numpy", "Pandas", "SciPy", "Theano"],
-        "Third Party APIs": ["Google Search API", "Google Maps API", "Shopify API", "Facebook API", "Twitter API", "Yandex Maps API", "Instagram API"],
-        "Mobile Development": ["React Native", "PhoneGap"],
-        "Mobile Testing": ["Appium"],
-        "Third Party Services": ["Swagger.io"],
-        "Log Management": ["AppSignal", "Kibana", "Logstash", "Splunk"],
-        "Code Quality Analysis": ["SonarQube", "RuboCop", "Reek"],
-        "Software Development Kits": ["Atlassian SDK"],
-        "Network Analysis Tools": ["Wireshark"],
-        "Test Management Systems": ["TestLink", "TestRail"],
+        
         "Big Data": ["Hortonworks HDP/HDF"],
+        "Distributed Computing": ["Apache Hadoop", "Apache Kafka", "Apache Spark"],
+        "Search Technologies": ["ElasticSearch", "Apache Solr", "Apache Lucene"],
+
+        "Crypto": ["AES", "RSA", "X.509", "КриптоПро"],
+
+        "Reporting Tools": ["JasperReports", "Crittercism", "Crashlytics", "jsreport", "Grafana"],
+        "Monitoring": ["Airbrake", "Datadog", "Zabbix"],
+        "Analytics": ["MixPanel", "Flurry", "Google Analytics", "New Relic"],
+        "Log Management": ["AppSignal", "Kibana", "Logstash", "Splunk"],
+        "Network Analysis Tools": ["Wireshark"],
+
         "Application Protocols": ["LDAP"],
-        "Android Development": ["Android Architecture Patterns (MVC, MVP, MVVM)", "Android Media/Graphics (Open GL, Live streaming)", "Android SDK (Bluetooth API, Camera API, Sensor/Location API)", 
-            "Google Play Services", "Image processing (Picasso, Glide, Fresco)", "Push notification (Parse, UrbanAirship, Pubnub)", "REST (Retrofit, Volley)"
-        ]
+        "Access Control / Authorization": ["JWT", "OpenId", "OAuth 2.0", "OAuth"],
+        
+        "HTTP Servers / Load Balancers": ["Nginx", "Apache HTTP"],
+        "Proxy Servers": ["Haproxy", "Charles Proxy", "Fiddler"],
+
+        "Containerization": ["Docker", "Kubernetes"],
+        "Virtualization": ["Oracle VirtualBox", "VMWare ESXi", "Proxmox", "Xen", "Vagrant"],
+
+        "Continuous Integration & Delivery": ["Jenkins CI", "GitLab CI", "GitLab CD", "TeamCity", "Travis CI", "Circle CI"],
+        "Build & Deployment Automation": ["Apache Maven", "Gradle", "Jenkins (ex. Hudson)", "Capistrano", "Ansible", "Apache Ant"],
+
+        "Portal Platforms": ["Liferay"],
+        "Business Process Management (BPM) Platforms": ["TIBCO BPM", "Bonita BPM"],
+        "Customer Relationship Management (CRM) Platforms": ["SugarCRM", "CentricCRM"],
+        "Enterprise Content Management (ECM) Platforms": ["Alfresco ECM"],
+
+        "Software Development Kits": ["Atlassian SDK"],
+
+        "Version-control Systems": ["Git", "CVS", "Subversion", "CVS", "Nexus Repository"],
+        "Version-control Platforms": ["GitHub", "GitLab", "BitBucket"],
+        "Repository Management": ["Nexus Repository Manager", "Node Package Manager"],
+
+        "Third Party APIs": ["Google Search API", "Google Maps API", "Shopify API", "Facebook API", "Twitter API", "Yandex Maps API", "Instagram API"],
+        "Third Party Services": ["Swagger.io"],
+
+        "Project Management Systems": ["Atlassian JIRA", "Redmine", "Trello", "Harvest", "Pivotal", "Workfront"],
+        "Collaboration & Wiki Systems": ["Atlassian Confluence", "Xwiki", "Redmine Wiki"],
+
+        "Office Suites": ["MS Office", "Google Docs"],
+
+        "Integrated Development Environment (IDE)": ["IntelliJ Idea", "SQL Developer", "Eclipse", "Jasper Studio", "NetBeans", "DataGrip"],
+        "Operation Systems": ["Windows", "Linux", "iOS", "Android", "MacOS"]
     }
 }
