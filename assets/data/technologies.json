@@ -195,16 +195,28 @@
       "Robot Framework"
     ],
     "Unit Testing": ["JUnit", "Mockito", "PowerMock"],
-    "Testing Automation": ["Selenide", "Cucumber", "Serenity", "Protractor"],
+    "Testing Automation": [
+      "Selenide",
+      "Cucumber",
+      "Serenity",
+      "Protractor",
+      "WebdriverIO",
+      "Allure"
+    ],
     "Testing Tools": ["Postman", "Insomnia", "Katalon Studio"],
     "Load and Performance Testing": [
       "Gatling",
       "Apache JMeter",
       "SolarWinds Database Performance Analyzer"
     ],
-    "API Testing": ["SoapUI"],
+    "API Testing": ["SoapUI", "Talend API Tester"],
     "Code Quality Analysis": ["SonarQube", "RudoCop", "Reek"],
-    "Test Management Systems": ["TestLink", "TestRail"],
+    "Test Management Systems": [
+      "TestLink",
+      "TestRail",
+      "qTest",
+      "Zephyr for Jira"
+    ],
 
     "Application Servers": [
       "JBoss EAP",
@@ -265,9 +277,10 @@
       "Scikit Learn",
       "TensorFlow",
       "XGBoost",
-      "Gensim"
+      "Gensim",
+      "fastText"
     ],
-    "Machine Learning Tools": ["Nvidia Cuda"],
+    "Machine Learning Tools": ["Nvidia Cuda", "AWS Sagemaker"],
     "Data Science": ["Matplotlib", "Numpy", "Pandas", "SciPy", "Theano"],
 
     "Big Data": ["Hortonworks HDP/HDF"],
@@ -332,7 +345,10 @@
       "SugarCRM",
       "CentricCRM"
     ],
-    "Enterprise Content Management (ECM) Platforms": ["Alfresco ECM"],
+    "Enterprise Content Management (ECM) Platforms": [
+      "Alfresco ECM",
+      "Documentum"
+    ],
 
     "Software Development Kits": ["Atlassian SDK"],
 
@@ -346,7 +362,8 @@
     "Version-control Platforms": ["GitHub", "GitLab", "BitBucket"],
     "Repository Management": [
       "Nexus Repository Manager",
-      "Node Package Manager"
+      "Node Package Manager",
+      "DockerHub"
     ],
 
     "Third Party APIs": [
@@ -374,7 +391,7 @@
       "Redmine Wiki"
     ],
 
-    "Office Suites": ["MS Office", "Google Docs"],
+    "Office Suites": ["MS Office", "Google Docs", "LibreOffice"],
 
     "Integrated Development Environment (IDE)": [
       "IntelliJ Idea",
@@ -383,8 +400,13 @@
       "Jasper Studio",
       "NetBeans",
       "DataGrip",
-      "Visual Studio Code"
+      "Visual Studio Code",
+      "WebStorm",
+      "Android Studio",
+      "Xcode"
     ],
-    "Operation Systems": ["Windows", "Linux", "iOS", "Android", "MacOS"]
+    "Operation Systems": ["Windows", "Linux", "iOS", "Android", "MacOS"],
+    "Design Tools": ["Zeplin"],
+    "SSH & FTP": ["WinSCP", "Putty", "FileZilla"]
   }
 }
