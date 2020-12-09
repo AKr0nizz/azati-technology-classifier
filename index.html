@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Azati Technology Classifier</title>
 
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="vue-app" id="vue-app">
-        <textarea name="" id="" cols="30" rows="20" v-model="inputData"></textarea>
-        <button @click="handleClassificationButtonClick">Start classification</button>
-        <div class="classified-technologies">
-            <div class="single-technology-type" v-for="(value, name) in this.sortedTechnologies" :key="name">
-                <div class="single-technology-type__headline" v-if="value.length > 0">
-                    <h2>{{name}}</h2>
-                    <ul>
-                        <li v-for="(item, index) in value" :key="index">{{item}}</li>
-                    </ul>
-                </div>
-            </div>
+      <textarea
+        name=""
+        id=""
+        cols="30"
+        rows="20"
+        v-model="inputData"
+      ></textarea>
+      <button @click="handleClassificationButtonClick">
+        Start classification
+      </button>
+      <div class="classified-technologies">
+        <div
+          class="single-technology-type"
+          v-for="(value, name) in this.sortedTechnologies"
+          :key="name"
+        >
+          <div class="single-technology-type__headline" v-if="value.length > 0">
+            <h2>{{name}}</h2>
+            <ul>
+              <li v-for="(item, index) in value" :key="index">{{item}}</li>
+            </ul>
+            <br />
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Register Vue -->
     <script src="./assets/js/VueInit.js"></script>
-    
-</body>
+  </body>
 </html>

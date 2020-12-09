@@ -26,7 +26,8 @@
       "Shell",
       "IPython",
       "Smalltalk",
-      "Crystal"
+      "Crystal",
+      "R"
     ],
     "Mark-up and Modeling Languages": ["XSLT", "HTML (4/5)", "UML"],
     "Project Management Methodologies": [
@@ -84,6 +85,10 @@
       "Spring AOP",
       "Spring Cloud",
       "Spring Social",
+      "Spring Kafka",
+      "Spring JMS",
+      "Spring Batch",
+      "Spring Adoc",
       "Hibernate",
       "MyBatis",
       "Apache Tiles",
@@ -119,7 +124,7 @@
       "Vue",
       "Ember.js"
     ],
-    "Front-end Libraries": ["Lodash", "jQuery"],
+    "Front-end Libraries": ["Lodash", "jQuery", "Animate.css", "Chart.js", "ApexCharts.js"],
     "Front-end Technologies": [
       "CSS/CSS3",
       "Flux",
@@ -140,9 +145,15 @@
       "Restify",
       "Hapi"
     ],
+    "JavaScript Testing Frameworks": ["Jasmine-marbles"],
+    "Front-end Paradigms": ["BEM"],
 
-    "PHP Frameworks": ["Yii", "Laravel", "Zend"],
-    "PHP CMS": ["Joomla", "Wordpress", "Magento (1/2)"],
+    "PHP Frameworks": ["Yii", "Laravel", "Zend", "Kohana", "Symfony"],
+    "PHP Boilerplates": ["Bedrock"],
+    "PHP CMS": [
+      "Joomla", "Wordpress", "Magento (1/2)", 
+      "DataLifeEngine", "Drupal", "PrestaShop"
+    ],
 
     "Web Technologies": ["AJAX", "WebSocket API (WebSockets)"],
     "Data Formats": ["XML", "JSON", "CSV"],
@@ -154,6 +165,7 @@
       "Android Architecture Patterns (MVC, MVP, MVVM)",
       "Android Media/Graphics (Open GL, Live streaming)",
       "Android SDK (Bluetooth API, Camera API, Sensor/Location API)",
+      "Android NDK",
       "Google Play Services",
       "Image processing (Picasso, Glide, Fresco)",
       "Push notification (Parse, UrbanAirship, Pubnub)",
@@ -171,19 +183,24 @@
       "MariaDB",
       "AWS RDS",
       "Firebird",
-      "Interbase"
+      "Interbase",
+      "H2"
     ],
     "NoSQL Databases": ["MongoDB", "Apache Cassandra", "Firebase"],
-    "Time series database": ["InFluxDB"],
+    "Time Series Databases": ["InFluxDB"],
     "In-memory Databases": ["Redis", "Memcached"],
     "Modeling Tools": [
       "MS Visio",
       "SAP PowerDesigner",
       "EA Architect",
       "TIBCO Designer",
-      "DataDesigner"
+      "DataDesigner",
+      "MySQL Workbench",
+      "Miro"
     ],
+    "Database Migration Tools": ["Flyway"],
     "Object Data Modeling (ODM)": ["Mongoose"],
+    "Caching Solutions": ["Caffeine Cache"],
 
     "Web Testing": ["Selenium (WebDriver/Grid/IDE)"],
     "Test Frameworks": [
@@ -201,7 +218,8 @@
       "Serenity",
       "Protractor",
       "WebdriverIO",
-      "Allure"
+      "Allure",
+      "Selenoid"
     ],
     "Testing Tools": ["Postman", "Insomnia", "Katalon Studio"],
     "Load and Performance Testing": [
@@ -209,8 +227,8 @@
       "Apache JMeter",
       "SolarWinds Database Performance Analyzer"
     ],
-    "API Testing": ["SoapUI", "Talend API Tester"],
-    "Code Quality Analysis": ["SonarQube", "RudoCop", "Reek"],
+    "API Testing": ["SoapUI", "Talend API Tester", "Wiremock"],
+    "Code Quality Analysis": ["SonarQube", "RuboCop", "Reek"],
     "Test Management Systems": [
       "TestLink",
       "TestRail",
@@ -237,7 +255,8 @@
       "Google ProtoBuf",
       "Amazon SQS",
       "Tibco EMS",
-      "TIBCO JMS"
+      "TIBCO JMS",
+      "IBM MQ"
     ],
     "Job Runners & Schedulers": [
       "Sidekiq",
@@ -254,7 +273,8 @@
       "Microsoft SSIS",
       "Netezza",
       "Oracle Database Designer",
-      "Oracle Database Designer"
+      "Oracle Database Designer",
+      "DBeaver"
     ],
     "Business Intelligence": [
       "SAP BusinessObjects",
@@ -281,10 +301,10 @@
       "fastText"
     ],
     "Machine Learning Tools": ["Nvidia Cuda", "AWS Sagemaker"],
-    "Data Science": ["Matplotlib", "Numpy", "Pandas", "SciPy", "Theano"],
+    "Data Science": ["Matplotlib", "Numpy", "Pandas", "SciPy", "Theano", "Jupyter", "Jupyterlab"],
 
     "Big Data": ["Hortonworks HDP/HDF"],
-    "Distributed Computing": ["Apache Hadoop", "Apache Kafka", "Apache Spark"],
+    "Distributed Computing": ["Apache Hadoop", "Apache Kafka", "Apache Spark", "Conduktor (Kafka UI)"],
     "Search Technologies": [
       "ElasticSearch",
       "Apache Solr",
@@ -310,10 +330,10 @@
     "Application Protocols": ["LDAP"],
     "Access Control / Authorization": ["JWT", "OpenId", "OAuth 2.0", "OAuth"],
 
-    "HTTP Servers / Load Balancers": ["Nginx", "Apache HTTP"],
+    "HTTP Servers / Load Balancers": ["Nginx", "Apache HTTP", "OpenServer"],
     "Proxy Servers": ["Haproxy", "Charles Proxy", "Fiddler"],
 
-    "Containerization": ["Docker", "Kubernetes"],
+    "Containerization": ["Docker", "Kubernetes", "OpenShift"],
     "Virtualization": [
       "Oracle VirtualBox",
       "VMWare ESXi",
@@ -328,7 +348,9 @@
       "GitLab CD",
       "TeamCity",
       "Travis CI",
-      "Circle CI"
+      "Circle CI",
+      "Octopus",
+      "GitHub Actions"
     ],
     "Build & Deployment Automation": [
       "Apache Maven",
@@ -340,10 +362,12 @@
     ],
 
     "Portal Platforms": ["Liferay"],
-    "Business Process Management (BPM) Platforms": ["TIBCO BPM", "Bonita BPM"],
+    "Business Process Management (BPM) Platforms": ["TIBCO BPM", "Bonita BPM", "Camunda", "Camunda Cockpit"],
     "Customer Relationship Management (CRM) Platforms": [
       "SugarCRM",
-      "CentricCRM"
+      "CentricCRM",
+      "vTiger CRM",
+      "SuiteCRM"
     ],
     "Enterprise Content Management (ECM) Platforms": [
       "Alfresco ECM",
@@ -354,8 +378,7 @@
 
     "Version-control Systems": [
       "Git",
-      "CVS",
-      "Subversion",
+      "SVN",
       "CVS",
       "Nexus Repository"
     ],
@@ -394,19 +417,35 @@
     "Office Suites": ["MS Office", "Google Docs", "LibreOffice"],
 
     "Integrated Development Environment (IDE)": [
-      "IntelliJ Idea",
-      "SQL Developer",
-      "Eclipse",
-      "Jasper Studio",
-      "NetBeans",
-      "DataGrip",
-      "Visual Studio Code",
-      "WebStorm",
-      "Android Studio",
-      "Xcode"
+      "IntelliJ Idea", "SQL Developer", "Eclipse",
+      "Jasper Studio", "NetBeans", "DataGrip",
+      "Visual Studio Code", "WebStorm", "Android Studio",
+      "Xcode", "NetBeans", "JetBrains PhpStorm"
+    ],
+    "Text Editors": [
+      "Atom",
+      "Sublime Text",
+      "Notepad++"
     ],
     "Operation Systems": ["Windows", "Linux", "iOS", "Android", "MacOS"],
-    "Design Tools": ["Zeplin"],
-    "SSH & FTP": ["WinSCP", "Putty", "FileZilla"]
+    "Design Tools": [
+      "Zeplin", "Adobe After Effects", "Adobe Illustrator", 
+      "Adobe InDesign", "Adobe Photoshop", "Autodesk 3D Studio Max", 
+      "Corel Draw", "Figma", "InVision", "Sketch Up"
+    ],
+    "Video Editing Tools": ["Camtasia Studio"],
+    "Online Tools & Services": [
+      "Background Image Generators", "CanIUse.com", "ColorZilla.com", 
+      "Data URI Generators", "Draw.io", "Fontello.com",
+      "FontSquirrel.com", "Glyphicons.com", "Google PageSpeed Insights",
+      "IcoMoon.io", "OptimiZilla.com", "SVG-Optimizers", "TinyPNG.com",
+      "UnCSS-Online.com", "Validator.nu"
+    ],
+    "Prototyping Tools": ["Axure RP", "Balsamiq Mockups", "Mockingbird", "Microsoft Visio", "Webflow"],
+    "Design Techniques": ["Adaptive and Responsive Web Design"],
+    "SSH & FTP": ["WinSCP", "Putty", "FileZilla", "FTP", "SFTP"],
+    "Templating Systems": ["Mustache"], 
+    "Messengers": ["Slack"],
+    "Time Tracking": ["Toggl"]
   }
 }
